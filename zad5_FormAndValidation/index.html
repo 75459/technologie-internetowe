@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Jakub Kowalczyk</title>
+    <link rel="stylesheet" href="red.css" id="theme-link">
+</head>
+<body>
+
+    <header>
+        <h1>Jakub Kowalczyk - CV</h1>
+        <div style="margin-top: 10px;">
+            <button onclick="changeTheme('green.css')">Motyw Zielony</button>
+            <button onclick="changeTheme('red.css')">Motyw Czerwony</button>
+            <button onclick="toggleSection('skills-section')">Pokaż/Ukryj Umiejętności</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Miasto: Warszawa</p>
+            <p>E-mail: <a href="mailto:j.kowalczyk@student.pl">j.kowalczyk@student.pl</a></p>
+            <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+
+            <p>
+                Profile:
+                <a href="https://github.com/75459" target="_blank" rel="noopener noreferrer">GitHub</a>,
+                <a href="https://linkedin.com/in/twoj-nick" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentem inżynierii oprogramowania, który właśnie uczy się technologii internetowych.</p>
+            <img src="avatar.png" alt="Zdjęcie profilowe Jakuba Kowalczyka" width="200">
+        </section>
+
+        <section id="skills-section">
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Podstawy HTML5 i struktury dokumentu</li>
+                <li>Obsługa edytora Visual Studio Enterprise</li>
+                <li>Zarządzanie plikami i folderami projektu</li>
+                <li>Podstawowa znajomość systemu kontroli wersji Git</li>
+                <li>Język angielski na poziomie B2</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>Praktykant IT - Firma Przykładowa</h3>
+                <p>Zakres obowiązków: Konfiguracja systemów operacyjnych i wsparcie techniczne pracowników.</p>
+            </article>
+            <article>
+                <h3>Projekt dodatkowy / Wolontariat</h3>
+                <p>Styczeń 2024 - obecnie</p>
+                <p>Zakres obowiązków: Wprowadzanie danych i pomoc przy zarządzaniu treścią na stronie uczelni.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p><strong>Akademia Finansów i Biznesu Vistula</strong></p>
+            <p>Kierunek: Inżynieria oprogramowania</p>
+            <p>Termin: 2025 – obecnie (II semestr)</p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ol>
+                <li><strong>Strona internetowa CV</strong> – stworzenie struktury dokumentu w czystym HTML5 zgodnie z wytycznymi.</li>
+                <li><strong>Repozytorium GitHub</strong> – konfiguracja publicznego profilu i zarządzanie kodem źródłowym projektu.</li>
+            </ol>
+        </section>
+
+        <section id="contact-form-section">
+            <h2>Napisz do mnie</h2>
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie">
+                    <span class="error-message" id="imie-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="nazwisko">Nazwisko:</label>
+                    <input type="text" id="nazwisko" name="nazwisko">
+                    <span class="error-message" id="nazwisko-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-message" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="wiadomosc">Wiadomość:</label>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4"></textarea>
+                    <span class="error-message" id="wiadomosc-error"></span>
+                </div>
+
+                <button type="submit" id="submit-btn">Wyślij wiadomość</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jakub Kowalczyk - index: 75459. Strona wykonana na potrzeby zajęć z Technologii Internetowych.</p>
+        <p><a href="https://www.youtube.com/watch?v=CzHmLIiDBbs" target="_blank" rel="noopener noreferrer">prezentacja youtube</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
