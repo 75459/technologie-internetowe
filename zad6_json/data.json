@@ -1,0 +1,14 @@
+{
+  "skills": [
+    "Podstawy HTML5 i struktury dokumentu",
+    "Obsługa edytora Visual Studio Enterprise",
+    "Zarządzanie plikami i folderami projektu",
+    "Podstawowa znajomość systemu kontroli wersji Git",
+    "Język angielski na poziomie B2"
+  ],
+  "projects": [
+    "Strona internetowa CV – stworzenie struktury dokumentu w czystym HTML5",
+    "Repozytorium GitHub – konfiguracja publicznego profilu i zarządzanie kodem",
+    "Interaktywny formularz – walidacja danych po stronie klienta"
+  ]
+}
